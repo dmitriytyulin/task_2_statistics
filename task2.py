@@ -29,10 +29,10 @@ min_energy: int = min(energies)
 print(f"Minimal energy is {min_energy} for number(s): {get_indexes_by_value(energies, min_energy)}")
 
 max_energy: int = max(energies)
-print(f"Minimal energy is {max_energy} for number(s): {get_indexes_by_value(energies, max_energy)}")
+print(f"Maximal energy is {max_energy} for number(s): {get_indexes_by_value(energies, max_energy)}")
 
 mean_energy: float = mean(energies)
-print(f"Mean energies is {mean_energy}")
+print(f"Mean energy is {mean_energy}")
 
 #
 # CORRELATION
